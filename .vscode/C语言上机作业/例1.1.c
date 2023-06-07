@@ -8,6 +8,5 @@
 int main()
 {
     printf("This is C program.\n");
-
 	return EXIT_SUCCESS;
 }
