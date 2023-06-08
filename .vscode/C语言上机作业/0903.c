@@ -7,14 +7,14 @@
 #include <string.h>
 struct student
 {
-    char num;
+    char num[6];
     char name[20];
-    int score[3];
+    int score[4];
 }stu[5];
-void print(struct student stu[5])
+void print(struct student stu[6])
 {
     int i,j;
-    printf("请输入编号，姓名和成绩：");
+    printf("\n请输入编号，姓名和成绩：");
     for(i=0;i<5;i++)
     {
         printf("%5s%10s",stu[i].num,stu[i].name);
@@ -28,7 +28,7 @@ int main()
     int i,j;
     for(i=0;i<5;i++)
     {
-        printf("输入学生的成绩%d:\n",i+1);
+        printf("\n输入学生的成绩%d:\n",i+1);
         printf("编号为:");
         scanf("%s",stu[i].num);
         printf("姓名为:");
