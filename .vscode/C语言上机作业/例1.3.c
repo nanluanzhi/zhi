@@ -1,16 +1,14 @@
-
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-int max(int a,int b)
-{
-    return a>b?a:b;
-
-}
+#include <math.h>
+#include <time.h>
+#include <stdlib.h>
+#include <windows.h>
+#include <string.h>
 int main()
 {
-    int a,b,c;
-    printf("请输入两个数据：");
-    scanf("%d%d",&a,&b);
-    c=max(a,b);
-    printf("max is %d\n",c);
-	return 0;
+    printf("*****\n");
+    printf("  *****\n");
+    printf("    *****\n");
+    printf("      *****\n");
 }
